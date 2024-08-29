@@ -1,0 +1,15 @@
+.icon{
+    display: flex;
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+footer{
+    background-color: #2C3E50;
+    color: white;
+}

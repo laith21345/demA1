@@ -1,0 +1,79 @@
+<div id="portfolio-component" class="vh-100">
+    <h1 class="text-uppercase text-center">portfolio component</h1>
+    <div class="i w-fit mx-auto  position-relative"><i class="fa-solid fa-star"></i></div>
+    <div class="container py-3">
+        <div class="row g-5">
+            <div class="col-12 col-lg-6 col-xl-4">
+                <div class="card position-relative">
+                    <img class="card-img" src="./assets/images/port1.png" alt="demo">
+                    <div
+                        class="layer d-flex justify-content-center align-items-center        position-absolute top-0 w-100 bottom-0 rounded-1 "
+                        (click)="flag=true">
+                        <i class="fa-solid fa-plus text-white"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4">
+                <div class="card position-relative">
+                    <img class="card-img" src="./assets/images/port2.png" alt="demo">
+                    <div
+                        class="layer d-flex justify-content-center align-items-center        position-absolute top-0 w-100 bottom-0 rounded-1 "
+                        (click)="flag=true">
+                        <i class="fa-solid fa-plus text-white"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4">
+                <div class="card position-relative">
+                    <img class="card-img" src="./assets/images/port3.png" alt="demo">
+                    <div
+                        class="layer d-flex justify-content-center align-items-center        position-absolute top-0 w-100 bottom-0 rounded-1 "
+                        (click)="flag=true">
+                        <i class="fa-solid fa-plus text-white"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4">
+                <div class="card position-relative">
+                    <img class="card-img" src="./assets/images/port1.png" alt="demo">
+                    <div
+                        class="layer d-flex justify-content-center align-items-center        position-absolute top-0 w-100 bottom-0 rounded-1 "
+                        (click)="flag=true">
+                        <i class="fa-solid fa-plus text-white"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4">
+                <div class="card position-relative">
+                    <img class="card-img" src="./assets/images/port2.png" alt="demo">
+                    <div
+                        class="layer d-flex justify-content-center align-items-center        position-absolute top-0 w-100 bottom-0 rounded-1 "
+                        (click)="flag=true">
+                        <i class="fa-solid fa-plus text-white"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4">
+                <div class="card position-relative">
+                    <img class="card-img" src="./assets/images/port3.png" alt="demo">
+                    <div
+                        class="layer d-flex justify-content-center align-items-center        position-absolute top-0 w-100 bottom-0 rounded-1 "
+                        (click)="flag=true">
+                        <i class="fa-solid fa-plus text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @if(flag) {
+        <div class="main-layer position-absolute top-0 w-100 bottom-0">
+            <div class="position-absolute w-100 h-100 d-flex justify-content-center align-items-center">
+                <img class="d-block rounded-2 z-1" src="./assets/images/port1.png" alt="demo">
+            </div>
+            <div class="into-layer position-absolute bg-info bg-opacity-25 w-100 h-100"
+                (click)="flag=false"></div>
+        </div>
+    }
+
+
+</div>

@@ -1,0 +1,39 @@
+.i{
+    &::after{
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 30px;
+        width: 100px;
+        height: 4px;
+        background-color: black;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }  
+    &::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        width: 100px;
+        height: 4px;
+        background-color: black;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+}  
+}
+
+
+.form-control:focus {
+    
+    box-shadow: none;
+}
+#contact-component{
+    padding-top: 150px;
+}
